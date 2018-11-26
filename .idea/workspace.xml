@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffea17c5-fae3-459c-8a52-a12074ce1384" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ffea17c5-fae3-459c-8a52-a12074ce1384" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,57 +56,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
-              <folding>
-                <element signature="e#0#66#0" expanded="true" />
-                <element signature="e#276#1731#0" />
-                <element signature="e#1765#1928#0" />
-                <element signature="e#1978#2267#0" />
-                <element signature="e#2316#2596#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="22" lean-forward="true" selection-end-line="33" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/blog_list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="22" column="110" selection-start-line="22" selection-start-column="110" selection-end-line="22" selection-end-column="115" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mysite/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2430">
-              <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        <entry file="uml://DjangoModelDependency/#mysite">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DjangoModelDependency</ID>
+              <OriginalElement>#mysite</OriginalElement>
+              <nodes>
+                <node x="413.5" y="79.0">blog.models.BlogType</node>
+                <node x="293.0" y="0.0">django.contrib.auth.models.Group</node>
+                <node x="0.0" y="0.0">django.contrib.auth.models.Permission</node>
+                <node x="317.5" y="158.0">blog.models.Blog</node>
+                <node x="158.5" y="79.0">django.contrib.auth.models.User</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="django.contrib.auth.models.User" target="django.contrib.auth.models.Group">
+                  <point x="58.75" y="-14.5" />
+                  <point x="334.75" y="54.0" />
+                  <point x="415.5" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="blog.models.Blog" target="blog.models.BlogType">
+                  <point x="34.75" y="-14.5" />
+                  <point x="421.75" y="133.0" />
+                  <point x="498.0" y="133.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="django.contrib.auth.models.User" target="django.contrib.auth.models.Permission">
+                  <point x="-58.75" y="-14.5" />
+                  <point x="217.25" y="54.0" />
+                  <point x="136.5" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="blog.models.Blog" target="django.contrib.auth.models.User">
+                  <point x="-34.75" y="-14.5" />
+                  <point x="352.25" y="133.0" />
+                  <point x="276.0" y="133.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0635326518896837" x="424.68022902510086" y="-10.69779926938594" />
+              <SelectedNodes>
+                <node>django.contrib.auth.models.User</node>
+              </SelectedNodes>
+              <Categories />
             </state>
           </provider>
         </entry>
@@ -136,6 +128,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="坤子 &lt;ktv033@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -193,24 +190,6 @@
               <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
               <item name="mysite" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mysite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
-              <item name="mysite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -342,30 +321,30 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70085000" />
+    <option name="totallyTimeSpent" value="70338000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1080" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49168208" visible="true" weight="0.14749734" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" sideWeight="0.50831795" side_tool="true" weight="0.32966277" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32970297" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49483013" visible="true" weight="0.14749734" />
+      <window_info id="Structure" order="1" sideWeight="0.50516987" side_tool="true" weight="0.14749734" />
+      <window_info id="Favorites" order="2" sideWeight="0.50516987" side_tool="true" weight="0.14749734" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32898173" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968051" visible="true" weight="0.26534653" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4968051" weight="0.26534653" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50319487" side_tool="true" weight="0.13465346" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4975912" weight="0.45247525" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32993197" />
+      <window_info anchor="bottom" id="Database Console" order="14" weight="0.32970297" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -376,16 +355,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="django-line">
-          <url>file://$PROJECT_DIR$/blog/templates/blog/blog_list.html</url>
-          <line>2</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/0x0021/mysite&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/0x0021/mysite&#10;&#10;# Conflicts:&#10;#&#9;.gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/pythonenv/mysite/lib/python3.7/site-packages/django/urls/conf.py">
@@ -552,20 +524,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.vscode/settings.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.vscode/launch.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="39" column="14" lean-forward="true" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/.vscode/settings.json" />
+    <entry file="file://$PROJECT_DIR$/.vscode/launch.json" />
     <entry file="file://$PROJECT_DIR$/blog/migrations/0003_auto_20181125_2213.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -611,17 +571,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/blog_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="22" column="110" selection-start-line="22" selection-start-column="110" selection-end-line="22" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2430">
           <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/blog/blog_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DjangoModelDependency/#mysite">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DjangoModelDependency</ID>
+          <OriginalElement>#mysite</OriginalElement>
+          <nodes>
+            <node x="413.5" y="79.0">blog.models.BlogType</node>
+            <node x="293.0" y="0.0">django.contrib.auth.models.Group</node>
+            <node x="0.0" y="0.0">django.contrib.auth.models.Permission</node>
+            <node x="317.5" y="158.0">blog.models.Blog</node>
+            <node x="158.5" y="79.0">django.contrib.auth.models.User</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="django.contrib.auth.models.User" target="django.contrib.auth.models.Group">
+              <point x="58.75" y="-14.5" />
+              <point x="334.75" y="54.0" />
+              <point x="415.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="blog.models.Blog" target="blog.models.BlogType">
+              <point x="34.75" y="-14.5" />
+              <point x="421.75" y="133.0" />
+              <point x="498.0" y="133.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="django.contrib.auth.models.User" target="django.contrib.auth.models.Permission">
+              <point x="-58.75" y="-14.5" />
+              <point x="217.25" y="54.0" />
+              <point x="136.5" y="54.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="blog.models.Blog" target="django.contrib.auth.models.User">
+              <point x="-34.75" y="-14.5" />
+              <point x="352.25" y="133.0" />
+              <point x="276.0" y="133.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0635326518896837" x="424.68022902510086" y="-10.69779926938594" />
+          <SelectedNodes>
+            <node>django.contrib.auth.models.User</node>
+          </SelectedNodes>
+          <Categories />
         </state>
       </provider>
     </entry>
