@@ -7,4 +7,8 @@
 
 
   [1]: http://images.xuyukun.com/admin.png
+<<<<<<< ours
   [2]: http://images.xuyukun.com/blog_list.png
+=======
+  [2]: http://images.xuyukun.com/blog_list.png
+>>>>>>> theirs
